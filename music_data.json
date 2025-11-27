@@ -1,0 +1,26 @@
+{
+    "happy": [
+        "Good as Hell - Lizzo",
+        "Happy - Pharrell",
+        "Levitating - Dua Lipa"
+    ],
+    "sad": [
+        "Someone Like You - Adele",
+        "Jealous - Labrinth",
+        "All I Want - Kodaline"
+    ],
+    "angry": [
+        "HUMBLE - Kendrick Lamar",
+        "DNA - Kendrick Lamar",
+        "Monster - Kanye West"
+    ],
+    "chill": [
+        "Sunflower - Post Malone",
+        "Lost in Japan - Shawn Mendes",
+        "Coffee - Beabadoobee"
+    ],
+    "liked": [
+        "Coffee - Beabadoobee",
+        "Happy - Pharrell"
+    ]
+}

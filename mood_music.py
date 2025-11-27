@@ -13,7 +13,7 @@ if os.path.exists(DATA_FILE):
 else:
     data = {
         "happy": ["Good as Hell - Lizzo", "Happy - Pharrell", "Levitating - Dua Lipa"],
-        "sad": ["Someone Like You - Adele", "Jealous - Labrinth", "All I Want - Kodaline"],
+        "sad": ["Someone Like You - Adele", "Jealous - Labrinth", "drivers licence - Olivia Rodrigo"],
         "angry": ["HUMBLE - Kendrick Lamar", "DNA - Kendrick Lamar", "Monster - Kanye West"],
         "chill": ["Sunflower - Post Malone", "Lost in Japan - Shawn Mendes", "Coffee - Beabadoobee"],
         "liked": []
