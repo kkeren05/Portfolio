@@ -2,9 +2,9 @@ import json
 import random
 import os
 
-# -----------------------
+
 # Load or create database
-# -----------------------
+
 DATA_FILE = "music_data.json"
 
 if os.path.exists(DATA_FILE):
@@ -19,9 +19,9 @@ else:
         "liked": []
     }
 
-# -----------------------
+
 # Ask for mood
-# -----------------------
+
 mood = input("How are you feeling today? ").lower()
 
 if mood not in data:
@@ -31,9 +31,9 @@ if mood not in data:
 song = random.choice(data[mood])
 print(f"\n🎵 Recommended song: {song}")
 
-# -----------------------
+
 # Feedback and learning
-# -----------------------
+
 feedback = input("\nDid you like this recommendation? (y/n) ").lower()
 
 if feedback == "y":
@@ -42,9 +42,9 @@ if feedback == "y":
 else:
     print("No worries!")
 
-# -----------------------
+
 # Save database
-# -----------------------
+
 with open(DATA_FILE, "w") as f:
     json.dump(data, f, indent=4)
 
