@@ -2,7 +2,6 @@
 
 A collection of small Python projects showcasing data analysis, modelling, and scripting skills.
 
-⸻
 
 🔹 Projects
 
