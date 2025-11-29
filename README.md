@@ -1,16 +1,20 @@
- Portfolio
+ PPortfolio
 
-A collection of small Python projects showcasing data analysis, modelling, and scripting skills.
+This repository contains a selection of Python projects demonstrating data analysis, machine learning, and creative coding.
 
+Projects
 
-🔹 Projects
+Movie Recommender
+	•	Description: Simple content-based movie recommender using a small subset of movie metadata.
+	•	Files: movie_recommender.py, make_small.py, movies_small.csvMood Music
+	•	Description: Recommends music based on moods.
+	•	Files: mood_music.py, music_data.json
 
-Mood Music Recommender
+Other Projects
+	•	Data Analysis & ML: data.csv, fit.py, generate.py
+	•	Decision Tree Mini-Project: disease_time2, disease_timeGraph
+	•	Testing Pipelines: test_pipeline.py
 
-Files: mood_music.py, music_data.json
-Recommends songs based on the user’s mood using a small JSON dataset.
-
-Disease Spread Modelling
-
-Files: fit.py, generate.py, test_pipeline.py, data.csv, plot.png, disease_time2/, disease_timeGraph/
-Models disease spread over time, fits curves, and generates visualisations.
+Notes
+	•	Large files (*.joblib, *.pickle, *.pkl, and archive/) are excluded to keep the repo lightweight.
+	•	All scripts work with the provided small CSV files.
