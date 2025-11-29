@@ -1,4 +1,4 @@
- PPortfolio
+Portfolio
 
 This repository contains a selection of Python projects demonstrating data analysis, machine learning, and creative coding.
 
